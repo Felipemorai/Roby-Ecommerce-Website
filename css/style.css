@@ -32,3 +32,51 @@
 
     --rotate-img: rotate(-30deg);
 }
+
+@media screen and (min-width: 768px) {
+    :root {
+        --big-font-size: 1.5rem;
+        --bigger-font-size: 2rem;
+        --biggest-font-size: 3rem;
+        --normal-font-size: 1rem;
+        --smaller-font-size: .875rem;
+    }
+}
+
+/* Base */
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3, p, ul {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
