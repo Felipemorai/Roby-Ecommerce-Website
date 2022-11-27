@@ -251,6 +251,23 @@ img {
     transform: translateY(-.25rem);
 }
 
+.button-light {
+    display: inline-flex;
+    color: var(--dark-color);
+    font-weight: var(--font-semi-bold);
+    align-items: center;
+}
+
+.button-icon {
+    font-size: 1.25rem;
+    margin-left: var(--mb-1);
+    transition: .3s;
+}
+
+.button-light:hover .button-icon {
+    transform: translateX(.25rem);
+}
+
 /* Featured */
 .featured_container {
     row-gap: 2rem;
@@ -278,4 +295,30 @@ img {
     font-size: var(--h2-font-size);
     transform: rotate(-90deg);
     letter-spacing: .1rem;
+}
+
+.sneaker_img {
+    width: 220px;
+    margin-top: var(--mb-3);
+    margin-bottom: var(--mb-6);
+    transform: var(--rotate-img);
+    filter: drop-shadow(0 12px 8px rgba(0,0,0,.2));
+}
+
+.sneaker_name, .sneaker_preci {
+    font-size: var(--h2-font-size);
+    letter-spacing: .1rem;
+    font-weight: var(--font-semi-bold);
+}
+
+.sneaker_name {
+    margin-bottom: var(--mb-1);
+}
+
+.sneaker_preci {
+    margin-bottom: var(--mb-4);
+}
+
+.sneaker:hover {
+    transform: translateY(-.5rem);
 }
