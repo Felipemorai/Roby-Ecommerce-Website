@@ -308,7 +308,7 @@ img {
 .sneaker_name, .sneaker_preci {
     font-size: var(--h2-font-size);
     letter-spacing: .1rem;
-    font-weight: var(--font-semi-bold);
+    font-weight: var(--font-bold);
 }
 
 .sneaker_name {
@@ -361,4 +361,10 @@ img {
 
 .collection_card:hover {
     transform: translateY(-.5rem);
+}
+
+/* Women Sneakers */
+.women_container {
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
