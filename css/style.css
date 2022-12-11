@@ -456,3 +456,7 @@ img {
     background-color: rgba(138,138,138,.3);
     transition: .3s;
 }
+
+.new_sneaker-card:hover .new_sneaker-overlay {
+    bottom: 0;
+}
