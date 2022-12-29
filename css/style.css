@@ -545,3 +545,55 @@ img {
     color: var(--dark-color-light);
     text-align: center;
 }
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    .section {
+        padding: 7rem 0;
+    }
+
+    .section-title::after {
+        width: 76px;
+    }
+
+    .nav {
+        height: calc(var(--header-height) + 1.5rem);
+    }
+
+    .nav_menu {
+        margin-left: auto;
+    }
+
+    .nav_list {
+        display: flex;
+    }
+
+    .nav_item {
+        margin-left: var(--mb-6);
+        margin-bottom: 0;
+    }
+
+    .nav_toggle {
+        display: none;
+    }
+
+    .home_container {
+        height: 100vh;
+        grid-template-columns: max-content max-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home_sneaker {
+        order: 1;
+    }
+
+    .home_shape {
+        width: 376px;
+        height: 376px;
+    }
+}
