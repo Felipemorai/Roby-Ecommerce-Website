@@ -323,6 +323,20 @@ img {
     transform: translateY(-.5rem);
 }
 
+.sneaker_pages {
+    margin-top: var(--mb-6);
+}
+
+.sneaker_pag {
+    padding: .5rem 1rem;
+    border: 1px solid var(--dark-color);
+}
+
+.sneaker_pag:hover {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
 /* Collection */
 .collection_container {
     row-gap: 2rem;
